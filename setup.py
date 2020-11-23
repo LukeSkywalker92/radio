@@ -12,5 +12,6 @@ setup(
     install_requires=['python-vlc==3.0.11115'],
     entry_points={
         'console_scripts': ['radio=radio.radio:main']
-    }
+    },
+    zip_safe=False
 )
